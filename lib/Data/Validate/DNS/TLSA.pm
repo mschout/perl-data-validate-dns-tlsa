@@ -8,7 +8,7 @@
 #
 
 package Data::Validate::DNS::TLSA;
-$Data::Validate::DNS::TLSA::VERSION = '0.01';
+$Data::Validate::DNS::TLSA::VERSION = '0.02';
 # ABSTRACT: Validate DNS Transport Layer Security Association (TLSA) Record Values
 
 use strict;
@@ -242,7 +242,7 @@ Data::Validate::DNS::TLSA - Validate DNS Transport Layer Security Association (T
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

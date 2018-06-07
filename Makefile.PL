@@ -18,7 +18,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Data::Validate::DNS::TLSA",
   "PREREQ_PM" => {
     "Exporter" => 0,
-    "List::Util" => 0,
+    "List::Util" => "1.33",
     "Taint::Util" => 0,
     "parent" => 0,
     "strict" => 0,
@@ -32,7 +32,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0,
     "Test::Warnings" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -44,7 +44,7 @@ my %FallbackPrereqs = (
   "File::Spec" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
-  "List::Util" => 0,
+  "List::Util" => "1.33",
   "Scalar::Util" => 0,
   "Taint::Util" => 0,
   "Test::More" => 0,

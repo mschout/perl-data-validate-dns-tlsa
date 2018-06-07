@@ -23,10 +23,10 @@ name: Data-Validate-DNS-TLSA
 provides:
   Data::Validate::DNS::TLSA:
     file: lib/Data/Validate/DNS/TLSA.pm
-    version: '0.01'
+    version: '0.02'
 requires:
   Exporter: '0'
-  List::Util: '0'
+  List::Util: '1.33'
   Taint::Util: '0'
   parent: '0'
   perl: '5.006'
@@ -36,5 +36,5 @@ resources:
   bugtracker: https://github.com/mschout/perl-data-validate-dns-tlsa/issues
   homepage: https://github.com/mschout/perl-data-validate-dns-tlsa
   repository: https://github.com/mschout/perl-data-validate-dns-tlsa.git
-version: '0.01'
+version: '0.02'
 x_serialization_backend: 'YAML::Tiny version 1.70'

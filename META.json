@@ -23,6 +23,7 @@
       "develop" : {
          "requires" : {
             "Dist::Zilla" : "5",
+            "Dist::Zilla::Plugin::Prereqs" : "0",
             "Dist::Zilla::Plugin::Test::Compile" : "0",
             "Dist::Zilla::PluginBundle::MSCHOUT" : "0",
             "Pod::Coverage::TrustPod" : "0",
@@ -35,7 +36,7 @@
       "runtime" : {
          "requires" : {
             "Exporter" : "0",
-            "List::Util" : "0",
+            "List::Util" : "1.33",
             "Taint::Util" : "0",
             "parent" : "0",
             "perl" : "5.006",
@@ -58,7 +59,7 @@
    "provides" : {
       "Data::Validate::DNS::TLSA" : {
          "file" : "lib/Data/Validate/DNS/TLSA.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -73,7 +74,7 @@
          "web" : "https://github.com/mschout/perl-data-validate-dns-tlsa"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.0233"
 }
 
