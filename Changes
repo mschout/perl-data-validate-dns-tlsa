@@ -1,6 +1,7 @@
 Revision history for Data-Validate-DNS-TLSA
 
 {{$NEXT}}
+    - Require List::Util >= 1.33 for List::Util::any()
 
 0.01  2018-06-06
     - Initial Release
